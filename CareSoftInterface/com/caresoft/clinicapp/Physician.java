@@ -10,7 +10,7 @@ public class Physician {
     // Constructor
     public Physician(int id) {
         this.id = id;
-        this.pin = -1; // default value indicating no pin set yet
+        this.pin = -1; 
     }
     
     public boolean assignPin(int pin) {
@@ -28,7 +28,5 @@ public class Physician {
         }
         return false;
     }
-
-    // ... Getter, Setter, and any other methods ...
 
 }

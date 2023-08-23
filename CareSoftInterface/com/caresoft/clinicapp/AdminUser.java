@@ -29,9 +29,6 @@ public class AdminUser {
         return false;
     }
 
-    // ... Getter, Setter, and any other methods ...
-
-    // Example: Reporting security incidents
     public String reportSecurityIncidents() {
         // ... Implement this according to your needs
         return "Sample security incident report for AdminUser.";
